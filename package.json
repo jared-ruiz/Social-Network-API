@@ -1,0 +1,24 @@
+{
+  "name": "challenge-18",
+  "version": "1.0.0",
+  "description": "Challenge 18 - MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jared-ruiz/Social-Network-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jared-ruiz/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/jared-ruiz/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}
