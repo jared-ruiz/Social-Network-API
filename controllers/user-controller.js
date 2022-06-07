@@ -77,4 +77,5 @@ const userController = {
     }
 }
 
+//export to user-routes js
 module.exports = userController;
