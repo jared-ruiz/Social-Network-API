@@ -20,4 +20,5 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/social-ne
 })
 
 //server listener
+//to drop db use this: mongo <dbname> --eval "db.dropDatabase()"
 app.listen(PORT, () => console.log(`You are successfully connected to localhost: ${PORT}`));
